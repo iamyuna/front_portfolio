@@ -23,13 +23,13 @@ export default function Header() {
                 <div>
                     <ul className="flex">
                         <li className="mr-[2rem] text-[1.4rem]">
-                            <Link href="/projects">PROJECTS</Link>
+                            <Link href="/projects" className={pathname === "/projects" ? "text-black font-light" : "text-gray-500 font-extralight"}>PROJECTS</Link>
                         </li>
                         <li className="mr-[2rem] text-[1.4rem] font-extralight">
-                            <Link href="/about">ABOUT</Link>
+                            <Link href="/about" className={pathname === "/about" ? "text-black font-light" : "text-gray-500 font-extralight"}>ABOUT</Link>
                         </li>
                         <li className="text-[1.4rem] font-extralight">
-                            <Link href="/contact">CONTACT</Link>
+                            <Link href="/contact" className={pathname === "/contact" ? "text-black font-light" : "text-gray-500 font-extralight"}>CONTACT</Link>
                         </li>
                     </ul>
                 </div>
