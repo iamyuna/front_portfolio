@@ -1,6 +1,6 @@
+import "./globals.css";
 import type { Metadata } from "next";
 import { Noto_Sans_KR, Roboto } from "next/font/google";
-import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -30,7 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${notoSansKR.variable} ${roboto.variable} antialiased`}>
         <Header />
-        <div className="wrap">
+        <div className="w-[91%] max-w-[1560px] m-[0_auto]">
           <main>{children}</main>
         </div>
         <Footer />
