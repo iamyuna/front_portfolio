@@ -1,15 +1,7 @@
 import ProjectList from "@/components/ProjectList";
+import projects from "@/data/projects.json"
 
-export default async function Projects(){
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || ''}/api/projects`, {
-        cache: "no-store",
-    });
-
-    if(!res.ok){
-        throw new Error("Failed to fetch data");
-    }
-
-    const projects = await res.json();
+export default function Projects(){
 
     return (
         <section className="min-h-[100vh] p-[300px_0] max-md:p-[180px_0_200px]">

@@ -15,16 +15,9 @@ interface AboutData{
     skills: Skills[];
 }
 
-export default async function About(){
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || ''}/api/about`, {
-        cache: "no-store",
-    });
+import aboutData from "@/data/about.json"
 
-    if(!res.ok){
-        throw new Error("Failed to fetch data");
-    }
-
-    const aboutData: AboutData = await res.json();
+export default function About(){
 
     return (
         <section className="min-h-[100vh] p-[300px_0] max-md:p-[180px_0_200px]">
