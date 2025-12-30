@@ -1,0 +1,8 @@
+:HL["/username.github.io/_next/static/chunks/73c7de234872e719.css","style"]
+:HL["/username.github.io/_next/static/chunks/ace47604a638c5d7.css","style"]
+:HL["/username.github.io/_next/static/media/ce62453a442c7f35-s.p.a9507876.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/username.github.io/_next/static/media/fca78c2ee6cec166-s.p.a2d50d65.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/images/main_about_thumb.jpg","image"]
+:HL["/images/main_projects_thumb.jpg","image"]
+:HL["/images/main_contact_thumb.jpg","image"]
+0:{"buildId":"X58aQS2Suc9ZlbeG2-xz5","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

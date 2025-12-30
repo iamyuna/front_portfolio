@@ -1,0 +1,13 @@
+:HL["/username.github.io/_next/static/chunks/73c7de234872e719.css","style"]
+:HL["/username.github.io/_next/static/chunks/ace47604a638c5d7.css","style"]
+:HL["/username.github.io/_next/static/media/ce62453a442c7f35-s.p.a9507876.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/username.github.io/_next/static/media/fca78c2ee6cec166-s.p.a2d50d65.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/images/i_next.png","image"]
+:HL["/images/i_react.png","image"]
+:HL["/images/i_zustand.png","image"]
+:HL["/images/i_tailwind.png","image"]
+:HL["/images/i_sass.png","image"]
+:HL["/images/i_html.png","image"]
+:HL["/images/i_js.png","image"]
+:HL["/images/i_css.png","image"]
+0:{"buildId":"X58aQS2Suc9ZlbeG2-xz5","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"about","paramType":null,"paramKey":"about","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
