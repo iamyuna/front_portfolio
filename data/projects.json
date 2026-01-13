@@ -11,7 +11,8 @@
         "typescript", 
         "tailwind", 
         "async"
-    ]
+    ],
+    "code": "https://github.com/iamyuna/front_portfolio"
   },
   {
     "id": 2,
@@ -24,7 +25,8 @@
         "zustand",
         "localstorage",
         "tailwind"
-    ]
+    ],
+    "code": "https://github.com/iamyuna/accountapp"
   },
   {
     "id": 3,
@@ -113,6 +115,7 @@
         "html",
         "scss",
         "jQuery"
-    ]
+    ],
+    "code": "https://github.com/iamyuna/2023_portfolio"
   }
 ]
