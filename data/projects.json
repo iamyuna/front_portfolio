@@ -110,7 +110,7 @@
     "title": "Web Publisher Portfolio",
     "description": "2023 웹퍼블리셔 포트폴리오 사이트입니다.",
     "image": "/images/portfolio_web.jpg",
-    "link": "https://iamyuna.github.io/2023_portfolio/",
+    "link": "https://iamyuna.github.io/2023_portfolio",
     "skills":[
         "html",
         "scss",
