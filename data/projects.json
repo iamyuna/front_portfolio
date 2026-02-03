@@ -9,8 +9,7 @@
         "next",
         "react", 
         "typescript", 
-        "tailwind", 
-        "async"
+        "tailwind"
     ],
     "code": "https://github.com/iamyuna/front_portfolio"
   },
