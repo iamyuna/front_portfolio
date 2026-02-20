@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Noto_Sans_KR, Roboto } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import IntroGate from "@/components/IntroGate";
 
 const notoSansKR = Noto_Sans_KR({
   subsets: ["latin"],
@@ -29,11 +30,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${notoSansKR.variable} ${roboto.variable} antialiased`}>
-        <Header />
-        <div className="w-[91%] max-w-[1560px] m-[0_auto]">
-          <main>{children}</main>
-        </div>
-        <Footer />
+        <IntroGate>
+          <Header />
+          <div className="w-[91%] max-w-[1560px] min-h-[100vh] m-[0_auto]">
+              {children}
+          </div>
+          <Footer />
+        </IntroGate>
       </body>
     </html>
   );

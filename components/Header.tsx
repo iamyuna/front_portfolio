@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <header className="absolute top-0 left-0 w-full">
-        <div className="w-[91%] mw-[1560px] m-[0_auto]">
+        <div className="w-[91%] max-w-[1560px] m-[0_auto]">
             <nav className="flex justify-between items-center py-[40px]">
                 <h1>
                     <Link href="/">

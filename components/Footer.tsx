@@ -9,7 +9,7 @@ export default function Footer() {
 
     return (
         <footer className="bg-[#eeeeee]">
-            <div className="w-[91%] mw-[1560px] m-[0_auto] flex justify-between p-[110px_0_490px] bg-[url('/images/footer_bg.png')] bg-no-repeat bg-bottom bg-contain max-md:block max-md:pb-[200px]">
+            <div className="w-[91%] max-w-[1560px] m-[0_auto] flex justify-between p-[110px_0_490px] bg-[url('/images/footer_bg.png')] bg-no-repeat bg-bottom bg-contain max-md:block max-md:pb-[200px]">
                 <div>
                     <h3 className="text-[3.2rem]">View My Resume</h3>
                     <a className="inline-block text-[1.2rem] p-[15px_30px] rounded-[50vh] bg-[#dddddd] mt-[25px]" href="/files/resume.pdf" target="_blank" rel="noopener noreferrer">OPEN PDF</a>

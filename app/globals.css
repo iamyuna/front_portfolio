@@ -17,3 +17,61 @@ img {
   height: auto;
   object-fit: cover;
 }
+
+/*intro page motion --- start*/
+.intro-text {
+  transform: translateX(-15px);
+  opacity: 0;
+  animation: text-motion-01 1.6s ease-in-out .2s;
+}
+.intro-text.ani-02 {
+  animation-delay: .5s;
+}
+@keyframes text-motion-01 {
+  0% {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+  35% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  75% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(15px);
+  }
+}
+.intro .intro-inner {
+  top: 100%;
+  transition: .8s cubic-bezier(0, 0.16, 0.87, 0.13) 2.2s;
+}
+/*intro page motion --- end*/
+
+/*main page motion --- start*/
+header {
+  transform: translateY(-40px);
+  opacity: 0;
+  transition: transform .6s ease-in-out 2.5s, opacity .6s ease-in-out 2.5s;
+}
+.intro header {
+  transform: translateY(0);
+  opacity: 1;
+}
+.main-animate {
+  display: block;
+  transform:  translateY(-40px);
+  opacity: 0;
+  transition:transform .6s ease-in-out 2.7s, opacity .6s ease-in-out 2.7s;
+}
+.main-animate.ani-02 {
+  transition-delay: 2.9s;
+}
+.intro .main-animate {
+  transform:  translateY(0);
+  opacity: 1;
+}
+/*main page motion --- end*/
