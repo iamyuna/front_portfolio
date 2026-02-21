@@ -1,11 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
-
 export default function IntroPage(){
 
     return(
-        <div className={`intro-inner fixed inset-0 w-full h-full bg-[#000]`}>
+        <div className="intro-inner fixed inset-0 w-full h-full bg-[#000]">
             <div className="w-[91%] max-w-[1560px] h-full flex items-center m-[0_auto]">
                 <div className="relative flex text-[2.3rem] text-white text-center max-md:block max-md:text-left">
                     <p className="intro-text ani-01">
