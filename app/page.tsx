@@ -8,7 +8,7 @@ export default function Home() {
     <div className="p-[265px_0_300px] max-md:p-[180px_0_200px]">
       <div>
         <MainTitle/>
-        <div className="pt-[250px] flex flex-wrap items-start gap-[200px_50px] max-lg:pt-[180px] max-md:pt-[100px] max-md:gap-[50px]">
+        <div className="pt-[240px] flex flex-wrap items-start gap-[200px_50px] max-lg:pt-[180px] max-md:pt-[100px] max-md:gap-[50px]">
             <MainCard
               href="/about"
               img="/images/main_about_thumb.jpg"
