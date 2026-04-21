@@ -2,7 +2,7 @@ export default function Contact(){
 
     return (
         <section className="h-[100vh] pt-[300px] max-md:pt-[180px]">
-            <div className="flex justify-between h-full bg-[url('/images/contact_bg.png')] bg-no-repeat bg-bottom bg-contain max-md:block">
+            <div className="flex justify-between h-full bg-[url('/front-portfolio/images/contact_bg.png')] bg-no-repeat bg-bottom bg-contain max-md:block">
                 <div>
                     <h3 className="text-[3.2rem]">View My Resume</h3>
                     <a className="inline-block text-[1.2rem] p-[15px_30px] bg-[#dddddd] rounded-[50vh] mt-[25px]" href="/files/resume.pdf" target="_blank" rel="noopener noreferrer">OPEN PDF</a>

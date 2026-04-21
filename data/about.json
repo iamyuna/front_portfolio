@@ -16,13 +16,13 @@
         }
     ],
     "skills": [
-        {"name": "Next.js", "icon": "/images/i_next.png"},
-        {"name": "React.js", "icon": "/images/i_react.png"},
-        {"name": "Zustand", "icon": "/images/i_zustand.png"},
-        {"name": "Tailwind", "icon": "/images/i_tailwind.png"},
-        {"name": "Scss", "icon": "/images/i_sass.png"},
-        {"name": "HTML5", "icon": "/images/i_html.png"},
-        {"name": "JavaScript", "icon": "/images/i_js.png"},
-        {"name": "CSS", "icon": "/images/i_css.png"}
+        {"name": "Next.js", "icon": "/front-portfolio/images/i_next.png"},
+        {"name": "React.js", "icon": "/front-portfolio/images/i_react.png"},
+        {"name": "Zustand", "icon": "/front-portfolio/images/i_zustand.png"},
+        {"name": "Tailwind", "icon": "/front-portfolio/images/i_tailwind.png"},
+        {"name": "Scss", "icon": "/front-portfolio/images/i_sass.png"},
+        {"name": "HTML5", "icon": "/front-portfolio/images/i_html.png"},
+        {"name": "JavaScript", "icon": "/front-portfolio/images/i_js.png"},
+        {"name": "CSS", "icon": "/front-portfolio/images/i_css.png"}
     ]
 }
